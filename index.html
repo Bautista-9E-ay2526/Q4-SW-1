@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q4 Seatwork 1</title>
 
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="style.css">
+    
 
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,23 +16,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
 <div class="container mt-5">
-    <div class="login-box p-4">
-        <h1 class="text-center">Login</h1>
-        <input type="text" id="user" class="form-control mb-2" placeholder="Username">
-        <input type="password" id="pass" class="form-control mb-2" placeholder="Password">
+    <div class="login-box p-2">
+        <h1 class="text-center mb-3">Login</h1>
+        <input type="text" id="user" class="form-control mb-3" placeholder="Username">
+        <input type="password" id="pass" class="form-control mb-3" placeholder="Password">
 
         <details ontoggle="alert('User: admin\nPass: 12345')">
-            <summary class="text-primary mb-3">
+            <summary class="text-danger mb-3">
                 Forgot Password?
             </summary>
             <p class="small">Click to view test credentials.</p>
         </details>
 
-        <button onclick="login()" class="btn btn-success w-100">Login</button>
+        <button onclick="login()" class="btn btn-primary w-50">Login</button>
 
         <p id="resulta" class="text-center"></p>
 

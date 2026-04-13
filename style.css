@@ -1,0 +1,43 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #AAB9CF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login-box {
+    background: #FFFF;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 12px 10px 5px 1px rgba(0,0,0,0.59);
+    text-align: center;
+}
+
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    padding: 8px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+}
+
+#resulta {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+summary {
+    cursor: pointer;
+}
