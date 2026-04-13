@@ -20,22 +20,22 @@ function login() {
     switch (status) {
 
         case "correct":
-            document.getElementById("result").innerHTML = "Access Granted!";
+            document.getElementById("resulta").innerHTML = "Access Granted!";
             alert("Welcome admin!");
             break;
 
         case "wrongpass":
-            document.getElementById("result").innerHTML = "Wrong Password!";
+            document.getElementById("resulta").innerHTML = "Wrong Password!";
             alert("Incorrect password!");
             break;
 
         case "empty":
-            document.getElementById("result").innerHTML = "Fill in all fields!";
+            document.getElementById("resulta").innerHTML = "Fill in all fields!";
             alert("Please enter username and password!");
             break;
 
         default:
-            document.getElementById("result").innerHTML = "Invalid Username!";
+            document.getElementById("resulta").innerHTML = "Invalid Username!";
             alert("User not found!");
     }
 
