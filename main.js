@@ -8,10 +8,10 @@ function login() {
     if (username == "" || password == "") {
         status = "empty";
     } 
-    else if (username == "admin" && password == "12345") {
+    else if (username == "admin" && password == "19205") {
         status = "correct";
     } 
-    else if (username == "admin" && password != "12345") {
+    else if (username == "admin" && password != "19205") {
         status = "wrongpass";
     } 
     else {
